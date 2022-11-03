@@ -1,0 +1,16 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
+EXCLUDED_ARCHS[sdk=iphonesimulator*] = arm64
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AppAuth" "${PODS_CONFIGURATION_BUILD_DIR}/FBSDKCoreKit" "${PODS_CONFIGURATION_BUILD_DIR}/FBSDKLoginKit" "${PODS_CONFIGURATION_BUILD_DIR}/GTMAppAuth" "${PODS_CONFIGURATION_BUILD_DIR}/GTMSessionFetcher" "${PODS_CONFIGURATION_BUILD_DIR}/PianoAPI" "${PODS_CONFIGURATION_BUILD_DIR}/PianoC1X" "${PODS_CONFIGURATION_BUILD_DIR}/PianoComposer" "${PODS_CONFIGURATION_BUILD_DIR}/PianoOAuth" "${PODS_ROOT}/CxenseSDK" "${PODS_ROOT}/GoogleSignIn/Frameworks" "${PODS_XCFRAMEWORKS_BUILD_DIR}/CxenseSDK"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1 $(inherited) FBSDKCOCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AppAuth/AppAuth.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/GTMAppAuth/GTMAppAuth.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/PianoAPI/PianoAPI.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/PianoC1X/PianoC1X.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/PianoComposer/PianoComposer.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/PianoOAuth/PianoOAuth.framework/Headers"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) /usr/lib/swift '@executable_path/Frameworks' '@loader_path/Frameworks'
+LIBRARY_SEARCH_PATHS = $(inherited) "${DT_TOOLCHAIN_DIR}/usr/lib/swift/${PLATFORM_NAME}" /usr/lib/swift
+OTHER_LDFLAGS = $(inherited) -ObjC -l"c++" -l"stdc++" -l"z" -framework "AppAuth" -framework "CoreData" -framework "CoreGraphics" -framework "CoreText" -framework "CxenseSDK" -framework "FBSDKCoreKit" -framework "FBSDKLoginKit" -framework "Foundation" -framework "GTMAppAuth" -framework "GTMSessionFetcher" -framework "GoogleSignIn" -framework "LocalAuthentication" -framework "PianoAPI" -framework "PianoC1X" -framework "PianoComposer" -framework "PianoOAuth" -framework "SafariServices" -framework "Security" -framework "SystemConfiguration" -framework "UIKit" -weak_framework "Accelerate" -weak_framework "Accounts" -weak_framework "AdSupport" -weak_framework "AudioToolbox" -weak_framework "AuthenticationServices" -weak_framework "CoreGraphics" -weak_framework "Foundation" -weak_framework "QuartzCore" -weak_framework "Security" -weak_framework "Social" -weak_framework "StoreKit" -weak_framework "UIKit"
+OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+PODS_XCFRAMEWORKS_BUILD_DIR = $(PODS_CONFIGURATION_BUILD_DIR)/XCFrameworkIntermediates
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

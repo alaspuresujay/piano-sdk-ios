@@ -1,0 +1,6 @@
+framework module Pods_PianoMobile {
+  umbrella header "Pods-PianoMobile-umbrella.h"
+
+  export *
+  module * { export * }
+}

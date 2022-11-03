@@ -1,0 +1,11 @@
+framework module CxenseSDK {
+  umbrella header "CxenseSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module CxenseSDK.Swift {
+    header "CxenseSDK-Swift.h"
+    requires objc
+}

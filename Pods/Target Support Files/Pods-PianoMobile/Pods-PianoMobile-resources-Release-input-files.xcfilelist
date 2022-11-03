@@ -1,0 +1,7 @@
+${PODS_ROOT}/Target Support Files/Pods-PianoMobile/Pods-PianoMobile-resources.sh
+${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle
+${PODS_ROOT}/PianoOAuth/Sources/OAuth/OAuth/Resources/piano_chevron.png
+${PODS_ROOT}/PianoOAuth/Sources/OAuth/OAuth/Resources/piano_chevron@2x.png
+${PODS_ROOT}/PianoOAuth/Sources/OAuth/OAuth/Resources/piano_chevron@3x.png
+${PODS_ROOT}/PianoOAuth/Sources/OAuth/OAuth/Resources/piano_modal_close.png
+${PODS_ROOT}/PianoOAuth/Sources/OAuth/OAuth/Resources/piano_modal_close@2x.png

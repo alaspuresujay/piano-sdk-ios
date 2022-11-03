@@ -1,0 +1,6 @@
+framework module PianoC1X {
+  umbrella header "PianoC1X-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module PianoOAuth {
+  umbrella header "PianoOAuth-umbrella.h"
+
+  export *
+  module * { export * }
+}
